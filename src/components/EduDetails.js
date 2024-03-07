@@ -6,8 +6,7 @@ function EduDetails() {
     const educationData = useSelector(state => state.details)
     const dispatch = useDispatch()
     const handleCertificates = () => {
-        console.log(dispatch(addCertificate(addCertifi)))
-
+        dispatch(addCertificate(addCertifi))
     }
     return (
         <div className='eduDetails'>
